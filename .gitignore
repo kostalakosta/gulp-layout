@@ -1,0 +1,15 @@
+# Created by .ignore support plugin (hsz.mobi)
+.idea/
+.vscode
+dev/
+dist/
+node_modules/
+package-lock.json
+/.env
+/.env.local
+/zip/
+/env.txt
+.eslintignore
+.eslintrc.json
+.prettierignore
+.prettierrc.json

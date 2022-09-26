@@ -1,0 +1,41 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 25px;
+    line-height: 1.2;
+    -webkit-tap-highlight-color: transparent;
+}
+
+body {
+    background: #fff;
+    color: $color-dark-light;
+    font-family: $base-font-family;
+    font-size: inherit;
+    overflow-x: hidden;
+    text-rendering: optimizeLegibility;
+}
+
+a,
+.link {
+    color: $color-accent;
+    outline: none;
+    text-decoration: none;
+    @extend %animation;
+}
+a:focus,
+a:hover,
+a:active,
+.link:focus,
+.link:hover,
+.link:active {
+    color: $color-accent-dark;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: $color-accent;
+}
